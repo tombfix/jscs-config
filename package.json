@@ -1,0 +1,40 @@
+{
+  "name": "jscs-config-tombfix",
+  "version": "0.0.1-alpha.0",
+  "description": "JSCS Shareable Config for Tombfix",
+  "keywords": [
+    "jscs",
+    "jscs-config",
+    "jscs-preset",
+    "code style"
+  ],
+  "homepage": "https://github.com/tombfix/jscs-config",
+  "license": "CC0-1.0",
+  "author": {
+    "name": "Syoichi Tsuyuhara",
+    "email": "syoichi@outlook.com",
+    "url": "http://syoichi.tumblr.com/"
+  },
+  "files": [
+    "index.js",
+    ".jscs.json"
+  ],
+  "main": "index.js",
+  "repository": "tombfix/jscs-config",
+  "scripts": {
+    "lint": "jscs .",
+    "pretest": "npm run lint",
+    "test": "mocha",
+    "preversion": "npm test",
+    "postversion": "git push && git push --tags && npm publish"
+  },
+  "devDependencies": {
+    "jscs": "",
+    "power-assert": "",
+    "mocha": ""
+  },
+  "engines": {
+    "node": ">=5.1.0",
+    "npm": ">=3.3.12"
+  }
+}
