@@ -8,6 +8,7 @@
     "allowUrlComments": true
   },
   "maximumNumberOfLines": 5000,
+  "disallowVar": true,
   "disallowKeywords": ["continue", "debugger", "delete", "var", "void", "with"],
   "disallowNodeTypes": [
     "ContinueStatement", "DebuggerStatement", "EmptyStatement",
@@ -54,6 +55,9 @@
   "disallowSpacesInFunction": {
     "beforeOpeningRoundBrace": true
   },
+  "disallowSpacesInGenerator": {
+    "beforeStar": true
+  },
   "disallowSpacesInsideArrayBrackets": true,
   "disallowSpacesInsideObjectBrackets": true,
   "disallowSpacesInsideParentheses": true,
@@ -62,6 +66,7 @@
   "disallowUnusedParams": true,
   "disallowYodaConditions": ["==", "!=", "===", "!==", ">", "<", ">=", "<="],
   "requireAlignedMultilineParams": true,
+  "requireArrayDestructuring": null,
   "requireBlocksOnNewline": {
     "includeComments": true
   },
@@ -71,6 +76,7 @@
     "if", "else", "for", "while", "do", "switch", "try", "catch", "finally"
   ],
   "requireDotNotation": true,
+  "requireEnhancedObjectLiterals": null,
   "requireKeywordsOnNewLine": [
     "for", "do", "switch", "case", "default", "try", "return", "throw", "break"
   ],
@@ -80,6 +86,7 @@
   "requireMultiLineTernary": null,
   "requireNamedUnassignedFunctions": true,
   "requireNumericLiterals": true,
+  "requireObjectDestructuring": true,
   "requireObjectKeysOnNewLine": true,
   "requireOperatorBeforeLineBreak": [
     "=", "+=", "-=", "*=", "/=", "%=", "<<=", ">>=", ">>>=", "&=", "|=", "^=",
