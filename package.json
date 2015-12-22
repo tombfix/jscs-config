@@ -1,6 +1,6 @@
 {
   "name": "jscs-config-tombfix",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "JSCS Shareable Config for Tombfix",
   "keywords": [
     "jscs",
