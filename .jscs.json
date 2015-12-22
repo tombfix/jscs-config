@@ -76,6 +76,7 @@
     "if", "else", "for", "while", "do", "switch", "try", "catch", "finally"
   ],
   "requireDotNotation": true,
+  "requireEarlyReturn": true,
   "requireEnhancedObjectLiterals": null,
   "requireKeywordsOnNewLine": [
     "for", "do", "switch", "case", "default", "try", "return", "throw", "break"
@@ -97,7 +98,7 @@
   "requirePaddingNewLinesAfterBlocks": null,
   "requirePaddingNewLinesAfterUseStrict": true,
   "requirePaddingNewlinesBeforeKeywords": [
-    "if", "for", "do", "try", "switch", "return", "throw", "break"
+    "if", "for", "do", "try", "switch", "return", "throw", "break", "function"
   ],
   "requirePaddingNewLinesInObjects": null,
   "requireParenthesesAroundIIFE": true,
